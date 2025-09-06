@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/testShader.dir/link.d CMakeFiles/testShader.dir/src/main.cpp.o CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.o CMakeFiles/testShader.dir/include/eunoia/Shader.cpp.o CMakeFiles/testShader.dir/src/glad.c.o -o testShader  -lglfw -lGL -lglm

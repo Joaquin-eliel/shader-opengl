@@ -1,0 +1,3 @@
+/home/joa/Escritorio/Dev/testShader/build/CMakeFiles/testShader.dir
+/home/joa/Escritorio/Dev/testShader/build/CMakeFiles/edit_cache.dir
+/home/joa/Escritorio/Dev/testShader/build/CMakeFiles/rebuild_cache.dir
