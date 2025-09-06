@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joa/Escritorio/Dev/testShader
+CMAKE_SOURCE_DIR = /home/joa/Escritorio/Dev/shader-opengl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joa/Escritorio/Dev/testShader/build
+CMAKE_BINARY_DIR = /home/joa/Escritorio/Dev/shader-opengl/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,16 +87,16 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/testShader/build/CMakeFiles /home/joa/Escritorio/Dev/testShader/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/shader-opengl/build/CMakeFiles /home/joa/Escritorio/Dev/shader-opengl/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/testShader/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/shader-opengl/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/testShader/build/CMakeFiles /home/joa/Escritorio/Dev/testShader/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/shader-opengl/build/CMakeFiles /home/joa/Escritorio/Dev/shader-opengl/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/testShader/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/shader-opengl/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
@@ -124,24 +124,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testShader
+# Target rules for targets named shader-opengl
 
 # Build rule for target.
-testShader: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testShader
-.PHONY : testShader
+shader-opengl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shader-opengl
+.PHONY : shader-opengl
 
 # fast build rule for target.
-testShader/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/build
-.PHONY : testShader/fast
+shader-opengl/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/build
+.PHONY : shader-opengl/fast
 
 include/eunoia/Arch.o: include/eunoia/Arch.cpp.o
 .PHONY : include/eunoia/Arch.o
 
 # target to build an object file
 include/eunoia/Arch.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Arch.cpp.o
 .PHONY : include/eunoia/Arch.cpp.o
 
 include/eunoia/Arch.i: include/eunoia/Arch.cpp.i
@@ -149,7 +149,7 @@ include/eunoia/Arch.i: include/eunoia/Arch.cpp.i
 
 # target to preprocess a source file
 include/eunoia/Arch.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Arch.cpp.i
 .PHONY : include/eunoia/Arch.cpp.i
 
 include/eunoia/Arch.s: include/eunoia/Arch.cpp.s
@@ -157,7 +157,7 @@ include/eunoia/Arch.s: include/eunoia/Arch.cpp.s
 
 # target to generate assembly for a file
 include/eunoia/Arch.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Arch.cpp.s
 .PHONY : include/eunoia/Arch.cpp.s
 
 include/eunoia/Shader.o: include/eunoia/Shader.cpp.o
@@ -165,7 +165,7 @@ include/eunoia/Shader.o: include/eunoia/Shader.cpp.o
 
 # target to build an object file
 include/eunoia/Shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Shader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Shader.cpp.o
 .PHONY : include/eunoia/Shader.cpp.o
 
 include/eunoia/Shader.i: include/eunoia/Shader.cpp.i
@@ -173,7 +173,7 @@ include/eunoia/Shader.i: include/eunoia/Shader.cpp.i
 
 # target to preprocess a source file
 include/eunoia/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Shader.cpp.i
 .PHONY : include/eunoia/Shader.cpp.i
 
 include/eunoia/Shader.s: include/eunoia/Shader.cpp.s
@@ -181,7 +181,7 @@ include/eunoia/Shader.s: include/eunoia/Shader.cpp.s
 
 # target to generate assembly for a file
 include/eunoia/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Shader.cpp.s
 .PHONY : include/eunoia/Shader.cpp.s
 
 include/eunoia/Window.o: include/eunoia/Window.cpp.o
@@ -189,7 +189,7 @@ include/eunoia/Window.o: include/eunoia/Window.cpp.o
 
 # target to build an object file
 include/eunoia/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Window.cpp.o
 .PHONY : include/eunoia/Window.cpp.o
 
 include/eunoia/Window.i: include/eunoia/Window.cpp.i
@@ -197,7 +197,7 @@ include/eunoia/Window.i: include/eunoia/Window.cpp.i
 
 # target to preprocess a source file
 include/eunoia/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Window.cpp.i
 .PHONY : include/eunoia/Window.cpp.i
 
 include/eunoia/Window.s: include/eunoia/Window.cpp.s
@@ -205,7 +205,7 @@ include/eunoia/Window.s: include/eunoia/Window.cpp.s
 
 # target to generate assembly for a file
 include/eunoia/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/include/eunoia/Window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/include/eunoia/Window.cpp.s
 .PHONY : include/eunoia/Window.cpp.s
 
 src/glad.o: src/glad.c.o
@@ -213,7 +213,7 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -221,7 +221,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -229,7 +229,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/main.o: src/main.cpp.o
@@ -237,7 +237,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -245,7 +245,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -253,7 +253,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -265,7 +265,7 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... testShader"
+	@echo "... shader-opengl"
 	@echo "... include/eunoia/Arch.o"
 	@echo "... include/eunoia/Arch.i"
 	@echo "... include/eunoia/Arch.s"

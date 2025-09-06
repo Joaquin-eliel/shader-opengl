@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/shader-opengl.dir/link.d "CMakeFiles/shader-opengl.dir/src/main.cpp.o" "CMakeFiles/shader-opengl.dir/include/eunoia/Window.cpp.o" "CMakeFiles/shader-opengl.dir/include/eunoia/Arch.cpp.o" "CMakeFiles/shader-opengl.dir/include/eunoia/Shader.cpp.o" "CMakeFiles/shader-opengl.dir/src/glad.c.o" -o shader-opengl  -lglfw -lGL -lglm

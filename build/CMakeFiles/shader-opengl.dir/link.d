@@ -1,12 +1,12 @@
-testShader: \
+shader-opengl: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  CMakeFiles/testShader.dir/src/main.cpp.o \
-  CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o \
-  CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.o \
-  CMakeFiles/testShader.dir/include/eunoia/Shader.cpp.o \
-  CMakeFiles/testShader.dir/src/glad.c.o \
+  CMakeFiles/shader-opengl.dir/src/main.cpp.o \
+  CMakeFiles/shader-opengl.dir/include/eunoia/Window.cpp.o \
+  CMakeFiles/shader-opengl.dir/include/eunoia/Arch.cpp.o \
+  CMakeFiles/shader-opengl.dir/include/eunoia/Shader.cpp.o \
+  CMakeFiles/shader-opengl.dir/src/glad.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libglfw.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libGL.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libglm.a \
@@ -56,15 +56,15 @@ testShader: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
-CMakeFiles/testShader.dir/src/main.cpp.o:
+CMakeFiles/shader-opengl.dir/src/main.cpp.o:
 
-CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o:
+CMakeFiles/shader-opengl.dir/include/eunoia/Window.cpp.o:
 
-CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.o:
+CMakeFiles/shader-opengl.dir/include/eunoia/Arch.cpp.o:
 
-CMakeFiles/testShader.dir/include/eunoia/Shader.cpp.o:
+CMakeFiles/shader-opengl.dir/include/eunoia/Shader.cpp.o:
 
-CMakeFiles/testShader.dir/src/glad.c.o:
+CMakeFiles/shader-opengl.dir/src/glad.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libglfw.so:
 

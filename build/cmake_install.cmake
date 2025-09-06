@@ -1,4 +1,4 @@
-# Install script for directory: /home/joa/Escritorio/Dev/testShader
+# Install script for directory: /home/joa/Escritorio/Dev/shader-opengl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/joa/Escritorio/Dev/testShader/build/install_local_manifest.txt"
+  file(WRITE "/home/joa/Escritorio/Dev/shader-opengl/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/joa/Escritorio/Dev/testShader/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/joa/Escritorio/Dev/shader-opengl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

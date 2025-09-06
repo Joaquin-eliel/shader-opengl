@@ -54,20 +54,20 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joa/Escritorio/Dev/testShader
+CMAKE_SOURCE_DIR = /home/joa/Escritorio/Dev/shader-opengl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joa/Escritorio/Dev/testShader/build
+CMAKE_BINARY_DIR = /home/joa/Escritorio/Dev/shader-opengl/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/testShader.dir/all
+all: CMakeFiles/shader-opengl.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/testShader.dir/codegen
+codegen: CMakeFiles/shader-opengl.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/testShader.dir/clean
+clean: CMakeFiles/shader-opengl.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/testShader.dir
+# Target rules for target CMakeFiles/shader-opengl.dir
 
 # All Build rule for target.
-CMakeFiles/testShader.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joa/Escritorio/Dev/testShader/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target testShader"
-.PHONY : CMakeFiles/testShader.dir/all
+CMakeFiles/shader-opengl.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joa/Escritorio/Dev/shader-opengl/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target shader-opengl"
+.PHONY : CMakeFiles/shader-opengl.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/testShader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/testShader/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/testShader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/testShader/build/CMakeFiles 0
-.PHONY : CMakeFiles/testShader.dir/rule
+CMakeFiles/shader-opengl.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/shader-opengl/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/shader-opengl.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joa/Escritorio/Dev/shader-opengl/build/CMakeFiles 0
+.PHONY : CMakeFiles/shader-opengl.dir/rule
 
 # Convenience name for target.
-testShader: CMakeFiles/testShader.dir/rule
-.PHONY : testShader
+shader-opengl: CMakeFiles/shader-opengl.dir/rule
+.PHONY : shader-opengl
 
 # codegen rule for target.
-CMakeFiles/testShader.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joa/Escritorio/Dev/testShader/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target testShader"
-.PHONY : CMakeFiles/testShader.dir/codegen
+CMakeFiles/shader-opengl.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joa/Escritorio/Dev/shader-opengl/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target shader-opengl"
+.PHONY : CMakeFiles/shader-opengl.dir/codegen
 
 # clean rule for target.
-CMakeFiles/testShader.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testShader.dir/build.make CMakeFiles/testShader.dir/clean
-.PHONY : CMakeFiles/testShader.dir/clean
+CMakeFiles/shader-opengl.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader-opengl.dir/build.make CMakeFiles/shader-opengl.dir/clean
+.PHONY : CMakeFiles/shader-opengl.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

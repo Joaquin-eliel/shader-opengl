@@ -3,5 +3,5 @@ echo "Compilando.."
 cd build
 cmake ..
 make
-./testShader
+./shader-opengl
 exit

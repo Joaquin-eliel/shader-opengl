@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/joa/Escritorio/Dev/testShader/include
+C_INCLUDES = -I/home/joa/Escritorio/Dev/shader-opengl/include
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/joa/Escritorio/Dev/testShader/include
+CXX_INCLUDES = -I/home/joa/Escritorio/Dev/shader-opengl/include
 
 CXX_FLAGS = -std=gnu++20
 

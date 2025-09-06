@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 4.0)
-project(testShader)
+project(shader-opengl)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-add_executable(testShader
+add_executable(shader-opengl
     src/main.cpp
     include/eunoia/Window.cpp
     include/eunoia/Arch.cpp
@@ -11,5 +11,5 @@ add_executable(testShader
     src/glad.c
 )
 
-target_include_directories(testShader PRIVATE include)
-target_link_libraries(testShader PRIVATE glfw GL glm)
+target_include_directories(shader-opengl PRIVATE include)
+target_link_libraries(shader-opengl PRIVATE glfw GL glm)

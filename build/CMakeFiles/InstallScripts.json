@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/joa/Escritorio/Dev/testShader/build/cmake_install.cmake"
+		"/home/joa/Escritorio/Dev/shader-opengl/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

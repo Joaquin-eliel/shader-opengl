@@ -1,11 +1,9 @@
-CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o: \
- /home/joa/Escritorio/Dev/testShader/include/eunoia/Window.cpp \
+CMakeFiles/shader-opengl.dir/include/eunoia/Shader.cpp.o: \
+ /home/joa/Escritorio/Dev/shader-opengl/include/eunoia/Shader.cpp \
  /usr/include/stdc-predef.h \
- /home/joa/Escritorio/Dev/testShader/include/eunoia/Window.h \
- /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.h \
- /home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h \
- /home/joa/Escritorio/Dev/testShader/include/glad/glad.h \
- /home/joa/Escritorio/Dev/testShader/include/KHR/khrplatform.h \
+ /home/joa/Escritorio/Dev/shader-opengl/include/eunoia/Shader.h \
+ /home/joa/Escritorio/Dev/shader-opengl/include/glad/glad.h \
+ /home/joa/Escritorio/Dev/shader-opengl/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -15,9 +13,7 @@ CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o: \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h \
- /home/joa/Escritorio/Dev/testShader/include/eunoia/Shader.h \
- /usr/include/c++/15.2.1/string \
+ /usr/include/bits/stdint-least.h /usr/include/c++/15.2.1/string \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -164,9 +160,5 @@ CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o: \
  /usr/include/c++/15.2.1/bits/codecvt.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/15.2.1/bits/fstream.tcc /usr/include/GLFW/glfw3.h \
- /usr/include/c++/15.2.1/vector \
- /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/15.2.1/bits/stl_vector.h \
- /usr/include/c++/15.2.1/bits/stl_bvector.h \
- /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/c++/15.2.1/iostream
+ /usr/include/c++/15.2.1/bits/fstream.tcc \
+ /usr/include/c++/15.2.1/iostream
