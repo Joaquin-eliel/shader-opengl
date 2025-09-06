@@ -5,6 +5,7 @@ CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.o
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.cpp
  /home/joa/Escritorio/Dev/testShader/include/KHR/khrplatform.h
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.h
+ /home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Shader.h
  /home/joa/Escritorio/Dev/testShader/include/glad/glad.h
  /usr/include/alloca.h
@@ -453,6 +454,7 @@ CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Window.cpp
  /home/joa/Escritorio/Dev/testShader/include/KHR/khrplatform.h
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.h
+ /home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Shader.h
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Window.h
  /home/joa/Escritorio/Dev/testShader/include/glad/glad.h
@@ -755,6 +757,7 @@ CMakeFiles/testShader.dir/src/main.cpp.o
  /home/joa/Escritorio/Dev/testShader/src/main.cpp
  /home/joa/Escritorio/Dev/testShader/include/KHR/khrplatform.h
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.h
+ /home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Shader.h
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Window.h
  /home/joa/Escritorio/Dev/testShader/include/glad/glad.h

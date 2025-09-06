@@ -2,6 +2,7 @@ CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.o: \
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.cpp \
  /usr/include/stdc-predef.h \
  /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.h \
+ /home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h \
  /home/joa/Escritorio/Dev/testShader/include/glad/glad.h \
  /home/joa/Escritorio/Dev/testShader/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \

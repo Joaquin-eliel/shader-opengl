@@ -4,6 +4,7 @@
 CMakeFiles/testShader.dir/include/eunoia/Arch.cpp.o: /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.cpp \
   /home/joa/Escritorio/Dev/testShader/include/KHR/khrplatform.h \
   /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.h \
+  /home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h \
   /home/joa/Escritorio/Dev/testShader/include/eunoia/Shader.h \
   /home/joa/Escritorio/Dev/testShader/include/glad/glad.h \
   /usr/include/alloca.h \
@@ -450,6 +451,7 @@ CMakeFiles/testShader.dir/include/eunoia/Shader.cpp.o: /home/joa/Escritorio/Dev/
 CMakeFiles/testShader.dir/include/eunoia/Window.cpp.o: /home/joa/Escritorio/Dev/testShader/include/eunoia/Window.cpp \
   /home/joa/Escritorio/Dev/testShader/include/KHR/khrplatform.h \
   /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.h \
+  /home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h \
   /home/joa/Escritorio/Dev/testShader/include/eunoia/Shader.h \
   /home/joa/Escritorio/Dev/testShader/include/eunoia/Window.h \
   /home/joa/Escritorio/Dev/testShader/include/glad/glad.h \
@@ -750,6 +752,7 @@ CMakeFiles/testShader.dir/src/glad.c.o: /home/joa/Escritorio/Dev/testShader/src/
 CMakeFiles/testShader.dir/src/main.cpp.o: /home/joa/Escritorio/Dev/testShader/src/main.cpp \
   /home/joa/Escritorio/Dev/testShader/include/KHR/khrplatform.h \
   /home/joa/Escritorio/Dev/testShader/include/eunoia/Arch.h \
+  /home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h \
   /home/joa/Escritorio/Dev/testShader/include/eunoia/Shader.h \
   /home/joa/Escritorio/Dev/testShader/include/eunoia/Window.h \
   /home/joa/Escritorio/Dev/testShader/include/glad/glad.h \
@@ -1150,12 +1153,6 @@ CMakeFiles/testShader.dir/src/glad.c.o:
 
 /usr/include/c++/15.2.1/bits/atomic_wait.h:
 
-/usr/include/c++/15.2.1/bits/requires_hosted.h:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/c++/15.2.1/bits/ranges_base.h:
-
 /usr/include/c++/15.2.1/bits/refwrap.h:
 
 /usr/include/c++/15.2.1/bits/postypes.h:
@@ -1284,6 +1281,8 @@ CMakeFiles/testShader.dir/src/glad.c.o:
 
 /usr/include/bits/types/mbstate_t.h:
 
+/usr/include/bits/types/locale_t.h:
+
 /usr/include/bits/libc-header-start.h:
 
 /usr/include/c++/15.2.1/ostream:
@@ -1297,6 +1296,10 @@ CMakeFiles/testShader.dir/src/glad.c.o:
 /usr/include/c++/15.2.1/bits/stl_construct.h:
 
 /usr/include/bits/struct_mutex.h:
+
+/usr/include/c++/15.2.1/bits/ranges_base.h:
+
+/home/joa/Escritorio/Dev/testShader/include/eunoia/Renderable.h:
 
 /usr/include/bits/byteswap.h:
 
@@ -1317,8 +1320,6 @@ CMakeFiles/testShader.dir/src/glad.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
 
 /usr/include/asm-generic/int-ll64.h:
-
-/usr/include/bits/types/locale_t.h:
 
 /usr/include/c++/15.2.1/bits/max_size_type.h:
 
@@ -1348,6 +1349,8 @@ CMakeFiles/testShader.dir/src/glad.c.o:
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/asm/types.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
 
 /usr/include/bits/floatn-common.h:
@@ -1359,8 +1362,6 @@ CMakeFiles/testShader.dir/src/glad.c.o:
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/bits/posix_opt.h:
-
-/usr/include/asm/types.h:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -1453,6 +1454,10 @@ CMakeFiles/testShader.dir/src/glad.c.o:
 /usr/include/bits/types/clockid_t.h:
 
 /usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/c++/15.2.1/bits/requires_hosted.h:
 
 /usr/include/c++/15.2.1/bits/move.h:
 

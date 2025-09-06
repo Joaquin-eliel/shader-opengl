@@ -73,8 +73,8 @@ void Window::addObj(Arch* obj) {objetos.push_back(obj);}
 
 void Window::renderLoop() {
     glClearColor(1.0f,1.0f,1.0f,1.0f);
+    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     while(!glfwWindowShouldClose(window)) {
-        std::cout << "dentro del loop" << std::endl;
         glfwPollEvents();
 
         glClear(GL_COLOR_BUFFER_BIT);
@@ -83,6 +83,7 @@ void Window::renderLoop() {
         glfwSwapBuffers(window);
     }
     std::cout << "apunto de salir del loop" << std::endl;
+    for(auto obj : objetos){obj->remove();}
     glfwDestroyWindow(window);
     glfwTerminate();
 }
