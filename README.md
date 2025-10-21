@@ -1,7 +1,6 @@
 #Dependencias
 --
 1.
-  -GLFW
-  -GL
-  -GLM
-##Ejecutar
+  GLFW
+  GL
+  GLM
